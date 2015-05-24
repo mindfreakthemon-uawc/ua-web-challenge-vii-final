@@ -1,0 +1,14 @@
+#opaque-bar.col-xs-2
+	.well.well-sm Mouseover this bar to temporary opaque the search form.
+#opaquable
+	.row
+		.col-xs-10
+			.well.well-sm To display search results press Enter. To close this popover press Esc or click anywhere on the page.
+	.row
+		.col-xs-10
+			input.form-control(type='text')
+			#suggestions
+		.col-xs-2
+			button.btn.btn-block#clear(type='button') Clear
+	.row
+		.col-xs-12#results

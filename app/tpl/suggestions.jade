@@ -1,0 +1,15 @@
+.well.well-sm
+	h4 Suggestions
+	ul
+		each result in results
+			li
+				case result.el.tagName
+					when 'H2'
+							| Topic: #{''}
+							a(href='#' + result.el.id) #{result.el.innerText}
+					default
+						a(href='#' + result.el.id)!= cutter(result.el.innerText, words)
+						small #{''} in topic "#{result.h2el.innerText}"
+
+	if !results.length
+		h2 no suggestions available

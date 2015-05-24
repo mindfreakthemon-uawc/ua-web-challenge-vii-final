@@ -1,0 +1,30 @@
+.well
+	h4 Results #{''}
+		sup.label.label-info time: #{time}ms
+		| #{' '}
+		sup.label.label-info results: #{results.length}
+	if results.length
+		ul
+			each model in collection.models
+				li
+					- var result = model.toJSON();
+					case result.el.tagName
+						when 'H2'
+							| Topic: #{''}
+							a(href='#' + result.el.id) #{result.el.innerText}
+						default
+							a(href='#' + result.el.id)!= cutter(result.el.innerText, words)
+							small #{''} in topic "#{result.h2el.innerText}"
+		.row.paginator
+			.col-xs-2
+				if collection.hasPreviousPage()
+					a.prev(href='#') previous
+			.col-xs-8
+				= collection.state.currentPage
+				| / #{''}
+				= collection.state.totalPages
+			.col-xs-2
+				if collection.hasNextPage()
+					a.next(href='#') next
+	else
+		h2 no results found
