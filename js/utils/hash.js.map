@@ -1,0 +1,1 @@
+{"version":3,"sources":["utils/hash.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,EAAE,EAAE,YAAY;;;;AAItB,QAAO;AACN,IAAE,EAAE,EAAE;AACN,GAAC,EAAE,EAAE;EACL,CAAC;CACF,CAAC,CAAC","file":"utils/hash.js","sourcesContent":["define([], function () {\n\t/**\n\t * hash for h2<->p relations\n\t */\n\treturn {\n\t\th2: {},\n\t\tp: {}\n\t};\n});"],"sourceRoot":"/source/"}

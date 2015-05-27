@@ -1,0 +1,39 @@
+#search-widget {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100px;
+  background: rgba(0,0,0,0.3);
+  padding: 20px;
+}
+#opaque-bar {
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  z-index: 1;
+  font-size: 10px;
+}
+#opaque-bar:hover + #opaquable {
+  opacity: 0;
+}
+#content {
+  padding: 20px;
+}
+#suggestions {
+  margin: 10px 0 0;
+}
+#suggestions ul {
+  padding: 0;
+}
+#suggestions li {
+  margin: 10px 0;
+}
+.paginator {
+  text-align: center;
+}
+h2:target,
+p:target {
+  outline: 5px solid #fe3;
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["models/result.model.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,CACL,UAAU,CACV,EACD,UAAU,QAAQ,EAAE;AACnB,QAAO,QAAQ,CAAC,KAAK,CAAC,MAAM,CAAC,EAAE,CAAC,CAAC;CACjC,CAAC,CAAC","file":"models/result.model.js","sourcesContent":["define([\n\t\t'backbone'\n\t],\n\tfunction (Backbone) {\n\t\treturn Backbone.Model.extend({});\n\t});"],"sourceRoot":"/source/"}

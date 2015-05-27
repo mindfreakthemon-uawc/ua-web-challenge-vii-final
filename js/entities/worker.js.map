@@ -1,0 +1,1 @@
+{"version":3,"sources":["entities/worker.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,EAAE,EAAE,YAAY;AACtB,QAAO,IAAI,MAAM,CAAC,oBAAoB,CAAC,CAAC;CACxC,CAAC,CAAC","file":"entities/worker.js","sourcesContent":["define([], function () {\n\treturn new Worker('/js/worker/main.js');\n});"],"sourceRoot":"/source/"}

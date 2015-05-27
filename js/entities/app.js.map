@@ -1,0 +1,1 @@
+{"version":3,"sources":["entities/app.js"],"names":[],"mappings":";;AAAA,MAAM,CAAC,CACL,gBAAgB,CAChB,EACD,UAAU,OAAO,EAAE;AAClB,QAAO,IAAI,OAAO,EAAE,CAAC;CACrB,CAAC,CAAC","file":"entities/app.js","sourcesContent":["define([\n\t\t'views/app.view'\n\t],\n\tfunction (AppView) {\n\t\treturn new AppView();\n\t});"],"sourceRoot":"/source/"}
