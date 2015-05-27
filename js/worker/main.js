@@ -3,7 +3,7 @@
 importScripts("../../lib/requirejs/require.js");
 
 require({
-	baseUrl: "/js/worker",
+	baseUrl: "/ua-web-challenge-vii-final/js/worker",
 	paths: {
 		underscore: "../../lib/underscore/underscore-min"
 	}

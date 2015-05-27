@@ -1,7 +1,7 @@
 "use strict";
 
 require({
-	baseUrl: "/js",
+	baseUrl: "/ua-web-challenge-vii-final/js",
 	paths: {
 		jquery: "../lib/jquery/dist/jquery.min",
 		underscore: "../lib/underscore/underscore-min",
